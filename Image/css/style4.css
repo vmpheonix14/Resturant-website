@@ -1,0 +1,136 @@
+
+.col-md-7{
+	padding-top: 25px;
+	padding-bottom:40px;
+}
+.row{
+	    padding-top: 20px;
+}
+.carousel-inner{
+	   
+		position: relative;
+
+        overflow: hidden;
+}
+
+.carousel-item{
+	        height: 15rem;
+}
+.carousel-caption{
+	padding-bottom: 144px;
+}
+
+h1{
+	font-size:40px;
+}
+h3{
+	margin-top:0;
+}
+.new1{
+	border-top: 1px solid #ccc
+}
+
+.image img{
+	width:100%;
+	padding-top: 60px;
+}
+.fooditem img{
+	 border-radius: 50%;
+    width: 50%;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+	background-color:#f85a40;
+	color:white;
+}
+.btns{
+	background-color:black;
+	color:white;
+	border-radius:5px;
+}
+.fooditem img{
+	margin: auto;
+    display: block;
+}
+.navbar{
+	background-color:#f8a138;
+}
+h6{
+	text-align: center;
+}
+.col-sm-4{
+	text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+	display:flex;
+	flex-direction:center;
+	align-items:center;
+	padding-top:20px;
+	text-align:center;
+	padding-bottom:20px;
+	    justify-content: center;
+}
+
+@media(max-width: 768px){
+	.col-md-7{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+	}
+	.image img{
+		width: 100%;
+		padding:0px;
+		    padding-top: 40px;
+	}
+	.container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	}
+	.carousel-caption{
+		padding-bottom: 30px;
+	}
+	.carousel-indicators{
+		    padding-bottom: 20px;
+	}
+	.carousel-item img{
+		height: 100%;
+	}
+	.row{
+		padding:0px;
+	}
+	.col-sm-4{
+	text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	}
+	footer{
+	
+	padding:22px 0px 20px 10px;
+    text-align: center;
+	align-items: flex-start;
+	    margin-top: 6px;
+	}
+	.btn{
+		    margin-top: 10px;
+	}
+	.fooditem img{
+		    margin: 10px auto;
+	}
+
+}
